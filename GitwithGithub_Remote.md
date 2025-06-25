@@ -8,3 +8,4 @@ Dikkat! Bu işlemden sonrasında branch'dan bağı kopartırız ve sadece başı
 Git Reset Nedir? 
 Git reset komutu Checkout gibidir ancak! bu komutu kullandığımızda head yani üzerinde olduğumuz branchten kopmayız ve istediğimiz commite dönebiliriz evet ama bu döndüğümüz comitten sonra atılmış olan commitler atlanır yani 2 adet commitimiz var 1. Adı İlk Commit 2. Adı İkinci Commit ve son atılmış commit de 2. Commit olsun. Bu durumda biz 1. Commite dönersek! 2. Commit silinecek ve 1. Committen kodlamaya devam edeceğiz bu durumda bulunduğumuz branchden kopmayacağız. ##git reset "Commit unique kodu" şeklinde çalıştırarak geri dönebiliriz.
 Dikkat eğer diğer commitler değersizse ve silinmek istiyorsa ve 1. commite dönülmek isteniyorsa ##git reset --hard "Unique Commit" şeklinde yaparız bu durumda diğer commit veya commitler silinecektir.
+
