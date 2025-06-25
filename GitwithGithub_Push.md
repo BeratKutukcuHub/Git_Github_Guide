@@ -23,11 +23,8 @@ git push -u origin main
 git add .
 git commit -m "Açıklama"
 git push
-## 🛑 Notlar:
 
-node_modules, dist gibi klasörleri .gitignore içine eklemeyi unutma.
-
-Git boş klasörleri takip etmez. Takip etmek istersen içine .gitkeep koy.
+## 🛑 Notlar: 
 
 Terminali temizlemek için:
 
