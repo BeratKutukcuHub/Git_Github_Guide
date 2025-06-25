@@ -12,3 +12,6 @@ Git Reset komutu Checkout gibidir ancak! bu komutu kullandığımızda head yani
 ### Git Revert Nedir?
 Git Revert komutu ##git reset ile aynı mantıktadır ancak! burada doğrudan 2. commite geçilir branchdan kopmayız ve bunun yanında diğer sonradan atılan commitler de silinmez. Burada işlemlere devam edebilir ayrı bir branche geçebilir buradan da merge edebiliriz. Ancak bu durumda direkt istenilen committeki bilgiler gelecektir son committe yapılan bilgiler size gelmeyecektir doğrudan o committe ne bilgiler, kodlar varsa onları görebileceksiniz aslında bulunduğumuz committen geçmise doğrudan gider ve orada bulunuruz ama diğer committeki bilgiler, kodlara zarar gelmez ama ilişiğimizi keseriz. Kullanımı => ##git revert "Unique Commit"
 
+### Git Diff Nedir?
+Git Diff komutu branchler, commitler, kaydedilen dosyalar gibi neredeyse her şeyi kıyaslamaya yarayan bir komuttur geçmişte yapılanlar ile şimdi yapılmış olan işlemleri birbiriyle kıyaslayarak ne tür değişimler olduğunu gözlemlememize olanak sağlar.
+
