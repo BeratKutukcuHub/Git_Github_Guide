@@ -12,6 +12,8 @@
 
   + Sizin lokalinizde yazmış olduğunuz kodlar geride kalmış olabilir bu nedenle pull request kabul edildikten sonra commitleri takip etmemiz gerekmektedir bu ne demektir? 
 
+  * ##git status diyerek kaç commit geride olduğumuz hakkında bilgi sahibi olabiliriz.
+
     - Ana sunucuda kabul gören pull request branche dahil edilir ve proje büyümüş olabilir bunu önlemek için ##git checkout origin/"dahil edilen branch" 'e bağlanarak ##git fetch ile güncellememiz gerekmekte böylelikle son commitleri ana sunucudan çekebiliriz. Ancak bu geçiçi bir 'branch' olduğundan dolayı commit, push gibi eylemler yapamayız sadece 'readonly' görebiliriz. Kendi lokalimize checkout/switch attığımızda güncel commitleri tekrar göremeyiz çünkü lokaldeyiz.
 
-    - Ama diyorsak ki kendi lokalimizde de güncel commit üzerinde çalışmak istiyoruz yani commitleri kendi lokalimizde görelim o kodlar tam olarak ekranımda yazsın güncel şekilde takip edeyim diyorsanız! ##git pull işlemini yapmamız gerekmektedir
+    - Ama diyorsak ki kendi lokalimizde de güncel commit üzerinde çalışmak istiyoruz yani commitleri kendi lokalimizde görelim o kodlar tam olarak ekranımda yazsın güncel şekilde takip edeyim diyorsanız! Öncelikle kendi branchimize gelelim ##git switch "Kendi Branchimiz" ardından ##git fetch origin "hangi dalın son halini göreceğiz?" ve son olarak da ##git pull origin/"Sunucudaki hangi dal ile bulunduğumuz branchi güncelleyeceğiz? "işlemini yapmamız gerekmektedir.
