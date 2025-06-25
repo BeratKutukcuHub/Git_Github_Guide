@@ -1,33 +1,9 @@
-## 🚀 Projeyi GitHub'a Gönderme Rehberi
+### GitHub'a Repository Nasıl Gönderilir Rehberi : 
 
-## ✅ Terminali aç ve Git başlat:  
-git init
+## `Repository Oluştur - GitHub`
+- Öncelikle GitHub'da bir repository oluştur ve vermiş olduğu HTTP adresini kopyala.
 
-## 📦 Tüm dosyaları Git takibine al: 
-git add .
+## `Repository Oluştur - GitHub`
+- Gönderilecek dosyaya git ile ulaş ve ardından ##git init (Git Yükle) , ##git add (Gönderilecek Dosyaları Belirle) , ##git commit -m "Açıklama" (Dosyaları takip et ve süreci kaydet) ardından ##git remote add origin "HTTP adresi" (Gönderilecek adrese bağlan) ve ##git push (Gönder)
 
-## 📝 İlk commit'i oluştur:
-git commit -m "İlk commit"
-
-## 🌐 GitHub’da boş bir repo oluştur (README ekleme!) ve uzak bağlantıyı ekle:
-git remote add origin https://github.com/KULLANICIADINIZ/REPO-ADI.git
-
-## 🌿 Ana branch’i “main” olarak ayarla:
-git branch -M main
-
-## 🚀 Projeyi GitHub'a gönder (push):
-git push -u origin main
-
-## 🔁 Her yeni değişiklikte şu üç adımı tekrar et:
-
-git add .
-git commit -m "Açıklama"
-git push
-
-## 🛑 Notlar: 
-
-Terminali temizlemek için:
-
-Windows: cls
-
-macOS / Linux / PowerShell: clear
+- Bu işlemler sonrası Repositoryde dosyaların oluşmuş olacaktır.

@@ -3,7 +3,7 @@
 ### 🔀 `git branch`  
 Projede **farklı çalışma dalları (branch)** oluşturmak ve yönetmek için kullanılır.  
 Yeni özellikler üzerinde çalışmak, hataları düzeltmek veya denemeler yapmak istediğinde ana koddaki değişikliklerden bağımsız çalışmanı sağlar.  
-Örnek: `git branch yeni-ozellik`
+Örnek: `git branch yeni-branch-adı`
 
 ---
 
